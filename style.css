@@ -1,0 +1,373 @@
+body {
+    background-color: #fefae0;
+    margin: 0;
+    text-align: center;
+}
+h1 {
+    font-family: Agbalumo, sans-serif;
+    color: #fb5607;
+    padding-left: 100px;
+    font-size: 60px;
+}
+h2 {
+    font-family: Agbalumo, sans-serif;
+    color: #fb5607;
+    font-size: 50px;
+    text-align: left;
+    padding-left: 100px;
+}
+.figure {
+    font-family: Agbalumo, sans-serif;
+    color: #fb5607;
+    font-size: 40px;
+}
+.aboutUst {
+    font-family: Agbalumo, sans-serif;
+    color: #fb5607;
+}
+h3, .toph {
+    font-family: unbounded, sans-serif;
+    color: black;
+}
+.headerp {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.btn {
+    background-color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    color: #fb5607;
+    font-size: 20px;
+    width: fit-content;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-family: Agbalumo, sans-serif;
+    box-shadow: 2px 2px 20px black;
+}
+span {
+    color: #212529;
+}
+p {
+    font-family: Exo, sans-serif;
+    color: black;
+}
+.readMore, .fusion.rm {
+    color: #fb5607;
+}
+.header {
+    background-color: #fefae0;
+    display: flex;
+    text-align: left;
+}
+.headdiv {
+    width: 50%;
+    margin: 40px;
+}
+.imgdivh {
+    width: 50%;
+    background-color: #fb5607;
+    text-align: center;
+    padding: 40px;
+}
+
+.img1, .image2 {
+    width: 600px;
+    height: 600px;
+}
+.aboutus {
+    display: flex;
+    background-color: white;
+}
+.aboutimg {
+    background-color: whitesmoke;
+    width: 60%;
+    text-align: center;
+}
+.abouttext {
+    width: 40%;
+    text-align: left;
+    padding-right: 180px;
+    padding-left: 40px;
+}
+.topdiv {
+    display: flex;
+}
+.top1, .top2 {
+    border-top: 1px solid #fb5607;
+    border-right: 1px solid #fb5607;
+    padding: 20px;
+}
+.top3 {
+    border-top: 1px solid #fb5607;
+    border-right: none;
+    padding: 20px;
+}
+.ph2 {
+    padding: 0 100px 0 100px;
+    text-align: left;
+}
+.odiv1, .odiv2, .odiv3, .odiv4 {
+    background-color: #fb5607;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.oimg {
+    width: 200px;
+    height: 200px;
+}
+.dish {
+    font-family: agbalumo, sans-serif;
+    color: #fefae0;
+    font-size: 20px;
+}
+.figure2 {
+    font-family: Agbalumo, sans-serif;
+    color: #fefae0;
+    font-size: 30px;
+}
+.oimgdiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px 0 100px;
+}
+.fusionimgdiv {
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.fusionimg {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+.fusiontext {
+     padding: 0 20px;
+}
+.fusion1, .fusion2, .fusion3 {
+    background-color: white;
+   width: 30%; 
+   border-radius: 20px;
+}
+.fusioncnt {
+    display: flex;
+    border-radius: 10px;
+    text-align: left;
+    justify-content: space-between;
+    padding: 0 100px 0 100px;
+    margin-bottom: 20px;
+}
+.footer {
+    background-color: #212529;
+    margin-bottom: 0;
+    display: flex;
+    padding: 0 100px;
+    color: whitesmoke;
+}
+.information, .social, .stay {
+    width: 20%;
+    padding: 40px;
+    text-align: left;
+}
+.contact {
+    width: 40%;
+    text-align: left;
+    padding: 0;
+}
+.fp, .socials, .info {
+    color: whitesmoke;
+}
+.info {
+    font-family: agbalumo, sans-serif;
+    font-size: 20px;
+}
+.logo {
+    width: 50px;
+    height: auto;
+    margin-top: 20px;
+}
+.logoh {
+    width: 50px;
+    height: auto;
+    margin: 20px auto 0 100px;
+    text-align: left;
+}
+i {
+    margin-right: 10px;
+}
+.social-item {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    width: 20px;
+}
+
+.contact-item {
+    display: flex;
+    margin-bottom: 5px;
+    width: 20px;
+}
+input {
+    background-color: #fefae0;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+}
+::placeholder {
+    color: #fb5607;
+}
+
+
+
+
+
+
+@media (max-width: 480px) {
+    body {
+        margin: 0;
+        text-align: center;
+        overflow-x: hidden;
+    }
+    .header {
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .headdiv {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .imgdivh {
+        display: none;
+    }
+    h1 {
+        font-size: 10vw;
+        padding: 0;
+        margin: 20px auto 20px auto;
+    }
+    h2 {
+        font-size: 8vw;
+        padding: 0;
+        margin: 20px auto 20px auto;
+        text-align: center;
+    }
+    h3 {
+        margin: 10px auto 10px auto;
+    }
+    .headerp {
+        padding: 0;
+        width: 100%;
+    }
+    .btn {
+        margin: 20px auto 20px auto;
+        padding: 10px auto;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .aboutus {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .aboutimg {
+        width: 100%;
+    }
+    .abouttext {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .top1, .top2, .top3 {
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .image2 {
+        width: 100%;
+        height: auto;
+    }
+    .ph2 {
+        padding: 0;
+        text-align: center;
+    }
+    .oimgdiv {
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .odiv1 {
+        width: 85%;
+        background-color: #fb5607;
+        margin: 20px auto 20px auto;
+    }
+    .odiv2, .odiv3, .odiv4 {
+        display: none;
+    }
+    .fusioncnt {
+        flex-direction: column;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .fusion1 {
+        width: 90%;
+        margin: 0 0 20px 0;
+        margin: 10px auto;
+        box-sizing: border-box;
+    }
+    .fusion2, .fusion3 {
+        display: none;
+    }
+    .fusiontext {
+        background-color: white;
+        padding: 10px;
+    }
+     .footer {
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .information, .social, .stay {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .contact {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .logo {
+        margin: 20px auto 20px auto;
+    }
+    .logoh {
+        text-align: center;
+        margin: 20px auto 20px auto;
+    }
+    .fp {
+        margin-bottom: 10px;
+    }
+    input {
+        margin: 10px auto 10px auto;
+    }
+}
