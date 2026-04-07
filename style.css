@@ -295,6 +295,13 @@ input {
         padding: 10px;
         box-sizing: border-box;
     }
+     .toph {
+         font-size: 4vw;
+     }
+    .figure {
+        font-size: 8vw;
+    }
+
     .image2 {
         width: 100%;
         height: auto;
